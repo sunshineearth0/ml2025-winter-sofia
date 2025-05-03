@@ -1,7 +1,7 @@
-count = int(input("Enter N: "))
+N = int(input("Enter N: "))
 entries = []
-for i in range(count):
-    entry = int(input(f"Enter number {i+1}: "))
+for i in range(N):
+    entry = int(input(f"Enter entry {i+1}: "))
     entries.append(entry)
 
 target = int(input("Enter X: "))
